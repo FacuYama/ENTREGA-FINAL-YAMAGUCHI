@@ -1,0 +1,241 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: antiquewhite;
+  color: black;
+  transition: all 1s ease-out;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
+
+/* Nomarlizacion */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Para que se repartan las medidas y no se agreguen a lo default */
+}
+
+html {
+    font-size: 62,5%; /* Para que la medida rem y em sean 10px */
+}
+
+ol ,ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* General */
+body {
+    display: flex;
+    flex-direction: column;
+}
+ 
+main {
+    text-align: center;
+    background-color: #ff7cbc;
+    border: 0.7rem rgba(181,255,255,1) solid;
+    padding: 1rem;
+  }
+
+h1 {
+    font-family: 'Oswald';
+    color: white;
+    font-weight: 500px;
+}
+
+h2 {
+    font-family: 'Oswald';
+    color: white;
+    font-weight: 500px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+header {
+    background: rgb(255,124,188);
+    background: linear-gradient(0deg, rgba(255,124,188,1) 0%, rgba(252,157,249,1) 20%, rgba(227,192,251,1) 48%, rgba(181,255,255,1) 84%);
+    padding: 1rem; /* Le hace un marco hacia adentro a mi header, haciendo que no queden las cosas pegadas al borde */
+
+}
+
+footer {
+    background: rgb(181,255,255);
+    background: linear-gradient(0deg, rgba(181,255,255,1) 4%, rgba(193,239,254,1) 22%, rgba(227,192,251,1) 39%, rgba(252,157,249,1) 61%, rgba(255,124,188,1) 84%);
+    padding: 1rem;
+} 
+
+/*  img{
+    width: 100%;
+    height: 100%;
+}     */
+
+
+
+
+/* Vista Escritorio */
+@media only screen and (min-width: 769px){
+
+   /* Barra de Navegacion */
+    
+
+    .menu__item:hover {
+        transform: scale(1.05);
+        border: 0.3rem rgb(255, 255, 255) solid;
+    }
+
+    .menu__item--imagen {
+        transition: transform .6s;
+    }
+
+    .menu__item--imagen:hover {
+        transform: scale(1.05);
+    }  
+
+    /* Main Home */
+    .container {
+        max-width: 60rem;
+    }
+
+    
+
+    .imagen {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+
+    /* Pagina nosotros */
+    .nosotros {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .nosotros__item {
+        background-color: rgba(181,255,255,1);
+        height: 30rem ;
+        width: 20rem;
+        overflow: hidden;
+    }
+
+    .nosotros__item--imagen {
+        border: 0.7rem rgba(181,255,255,1) solid;
+        max-width: 1000px;
+        height: 30rem;
+        width: 40rem;
+        
+    }
+
+    /* Footer */
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__redes {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+
+}
+
+ /* Vista Tablets */
+ @media only screen and (max-width: 768px){
+
+    .imagen {
+        width: 100%;
+        height: 100%;
+    }
+
+     /* Barra de Navegacion */
+     
+
+
+     /* Pagina nosotros */
+     .nosotros {
+        padding-left: 0;
+     }
+    .nosotros__item {
+        background-color: rgba(181,255,255,1);
+    }
+    .nosotros__item--imagen {
+        margin-bottom: 1rem;
+        border: 0.7rem rgba(181,255,255,1) solid;
+    }
+
+     /* Footer */
+     .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__redes {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+
+ }
+
+/* Vista celular */
+ @media only screen and (max-width: 560px) {
+    .imagen {
+        width: 100%;
+        height: 100%;
+    }
+
+     /* Barra de Navegacion */
+     
+    
+    .menu__item {
+        font-family: 'Oswald';
+        font-size: 1.5rem;
+        margin: 1rem;
+        padding: 0px 0.3rem 0px 0.3rem;
+    }
+    
+
+    
+
+     /* Pagina nosotros */
+     .nosotros {
+        padding-left: 0;
+     }
+    .nosotros__item {
+        background-color: rgba(181,255,255,1);
+    }
+    .nosotros__item--imagen {
+        margin-bottom: 1rem;
+        border: 0.7rem rgba(181,255,255,1) solid;
+    }
+
+     /* Footer */
+     .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__redes {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+}

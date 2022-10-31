@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "idCategoria":1,
+        "nombre": "Funda Transparente",
+        "marca": "G-Shock",
+        "modelo": "001",
+        "precio": 1300,
+        "stock": 30,
+        "img": "notebook-lenovo.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria":2,
+        "nombre": "Celular",
+        "marca": "Xiomi",
+        "modelo": "Mi-9",
+        "precio": 35000,
+        "stock": 20,
+        "img": "xiaomi-mi-9.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Smart Tv",
+        "idCategoria":3,
+        "marca": "Novatech",
+        "modelo": "50D1U",
+        "precio": 57000,
+        "stock": 15,
+        "img": "smart-tv-novatech.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Soft Negra",
+        "idCategoria":1,
+        "marca": "DyD",
+        "modelo": "003",
+        "precio": 1900,
+        "stock": 30,
+        "img": "camara-iqual.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Silicone Arcoiris",
+        "idCategoria":1,
+        "marca": "Kacell",
+        "modelo": "003",
+        "precio": 2000,
+        "stock": 7,
+        "img": "mouse-logitech.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Silicone Verde",
+        "idCategoria":1,
+        "marca": "Kacell",
+        "modelo": "004",
+        "precio": 1900,
+        "stock": 20,
+        "img": "motorola-pulse.jpg"
+    },
+    {
+        "id": 7,
+        "idCategoria":2,
+        "nombre": "iPhone",
+        "marca": "Apple",
+        "modelo": "X Silver",
+        "precio": 250000,
+        "stock": 10,
+        "img": "iphone-x.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Apple TV",
+        "idCategoria":3,
+        "marca": "Apple ",
+        "modelo": "32 Gb",
+        "precio": 45000,
+        "stock": 30,
+        "img": "apple-tv.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Tpu Rosa",
+        "idCategoria":1,
+        "marca": "DyD",
+        "modelo": "005",
+        "precio": 1800,
+        "stock": 21,
+        "img": "parlante-kalley.png"
+    },
+    {
+        "id": 10,
+        "idCategoria":1,
+        "nombre": "Mac",
+        "marca": "Apple",
+        "modelo": "Air",
+        "precio": 13000,
+        "stock": 25,
+        "img": "mac-air.jpg"
+    }
+    
+]
